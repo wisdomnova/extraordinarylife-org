@@ -198,38 +198,6 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: clamp(32px, 6vw, 48px);
-}
-
-.hero__features {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  width: min(100%, 520px);
-  list-style: none;
-}
-
-.hero__features li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  min-height: 88px;
-  padding: 16px 12px;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  line-height: 1.35;
-  color: var(--color-text-muted);
-  text-align: center;
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-}
-
-.hero__features ion-icon {
-  font-size: 22px;
-  color: var(--color-primary);
 }
 
 /* Footer */
@@ -253,19 +221,6 @@ body {
 @media (max-width: 768px) {
   :root {
     --header-height: 64px;
-  }
-
-  .hero__features {
-    grid-template-columns: 1fr;
-    max-width: 280px;
-  }
-
-  .hero__features li {
-    flex-direction: row;
-    justify-content: flex-start;
-    min-height: 52px;
-    padding: 14px 16px;
-    text-align: left;
   }
 
   .hero__title {
@@ -326,19 +281,6 @@ body {
   }
 
   .hero__actions {
-    margin-bottom: 24px;
-  }
-
-  .hero__features {
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 100%;
-  }
-
-  .hero__features li {
-    flex-direction: column;
-    min-height: 72px;
-    padding: 10px 8px;
-    font-size: 0.75rem;
-    text-align: center;
+    margin-bottom: 0;
   }
 }
