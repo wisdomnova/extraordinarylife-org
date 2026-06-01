@@ -1,0 +1,9 @@
+{
+  "name": "extraordinarylife-org",
+  "version": "1.0.0",
+  "description": "Extraordinary Life organisation site (coming soon)",
+  "scripts": {
+    "start": "npx serve . -p 3457",
+    "dev": "npx serve . -p 3457"
+  }
+}

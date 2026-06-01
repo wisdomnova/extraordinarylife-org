@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Extraordinary Life — something new is on the way." />
+  <title>Extraordinary Life | Coming Soon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="/" class="brand" aria-label="Extraordinary Life home">
+      Extraordinary<span>Life</span>
+    </a>
+    <a href="https://www.extraordinarylife.ng" class="btn btn--primary btn--header" aria-label="Book a co-working desk">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="btn__text">Book a desk</span>
+    </a>
+  </header>
+
+  <main class="hero">
+    <div class="hero__badge">Coming soon</div>
+    <h1 class="hero__title">
+      We're building
+      <span class="hero__title-accent">something extraordinary.</span>
+    </h1>
+    <p class="hero__lead">
+      Our new home on the web is almost ready. In the meantime, you can book a co-working desk and manage your workspace access today.
+    </p>
+    <div class="hero__actions">
+      <a href="https://www.extraordinarylife.ng" class="btn btn--primary btn--lg btn--cta" aria-label="Go to co-working booking">
+        <span class="btn__text">Go to co-working booking</span>
+        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+      </a>
+    </div>
+    <ul class="hero__features" aria-label="What we offer">
+      <li>
+        <ion-icon name="desktop-outline" aria-hidden="true"></ion-icon>
+        <span>17 hot desks</span>
+      </li>
+      <li>
+        <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+        <span>Conference room</span>
+      </li>
+      <li>
+        <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        <span>Lagos, Nigeria</span>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Extraordinary Life. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
